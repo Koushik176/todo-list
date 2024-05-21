@@ -1,0 +1,89 @@
+.task__header {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.task__header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.new-task__controls {
+  margin-bottom: 1.5rem;
+}
+
+.new-task__control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.new-task__control label {
+  font-size: 1rem;
+  color: #555;
+}
+
+.new-task__control input {
+  padding: 0.5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 1rem;
+}
+
+.new-task__actions {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.new-task__actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-task__actions button:hover {
+  background-color: #0056b3;
+}
+
+.task-list__controls ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list__controls li {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.task-list__controls button {
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-list__controls button:hover {
+  background-color: #c82333;
+}
